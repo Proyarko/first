@@ -51,7 +51,7 @@
 #             print('go work')
 #     def get_job(self, job):
 #         self.job = job
-
+#
 # class car:
 #     def __init__(self, speed, model):
 #         self.speed = speed
@@ -75,24 +75,27 @@
 #         self.hapiness = 100
 #         self.age = age
 #         self.money = money
-    
+
 
 # class Student(Person):
 #     def __init__(self, knoghledge, free_time):
 #         super(). __init__(self)
 #         self.knoghledge = knoghledge
 #         self.free_time = free_time
-class squaer:
-    def __init__(self,side):
-        self.side = side
 
-    def s(self):
-        return self.side ** 2 
-class rectangle(squaer):
-    def __init__(self, side2):
-        super().__init__(self)
-        self.side2 = side2
-    def S2(self):
-        return self.side2 * self.side
 
-squae = squaer(10)
+
+# class squaer:
+#     def __init__(self,side):
+#         self.side = side
+
+#     def s(self):
+#         return self.side ** 2 
+# class rectangle(squaer):
+#     def __init__(self, side2):
+#         super().__init__(self)
+#         self.side2 = side2
+#     def S2(self):
+#         return self.side2 * self.side
+
+# squae = squaer(10)
