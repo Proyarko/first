@@ -49,6 +49,8 @@ def main():
             print("Невірний вибір, спробуйте ще раз.")
     
     total = order.calculate_total()
-    print(f"\nЗагальна сума: ${total:.2f}")
+    print(f"\nЗагальна сума до оплати: ${total:.2f}")
     print("Дякуємо за ваше замовлення!")
 
+if __name__ == "__main__":
+    main()
